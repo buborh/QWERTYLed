@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<PreferenceCategory  android:title="@string/menu_settings" >
+        <EditTextPreference
+        android:id="@+id/sensor"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sensor" android:key="sensor" android:defaultValue="/sys/devices/virtual/lightsensor/switch_cmd/lightsensor_file_state"/>
+        <EditTextPreference
+        android:id="@+id/keyfile"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/keyfile" android:key="keyfile" android:defaultValue="/sys/class/sec/sec_stmpe_bl/backlight"/>
+<EditTextPreference android:key="sensorthreshold" android:title="@string/sensorthreshold" android:defaultValue="30"/>
+<EditTextPreference android:key="LED_ON" android:title="Value to put key file" android:summary="Usual its 1 or 255" android:defaultValue="1"/>
+ </PreferenceCategory>
+</PreferenceScreen>

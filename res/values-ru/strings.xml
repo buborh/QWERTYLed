@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">QWERTYLed</string>
+    <string name="title_activity_about">О приложении</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="start">Запустить сервис</string>
+    <string name="stop">Остановить сервис</string>
+    <string name="process_name">:lcservice</string>
+    <string name="qwertyled_service_started">сервис запущен</string>
+    <string name="version_text">версия:</string>
+    <string name="credits_text">Связь со мной:</string>
+    <string name="vk_description">ВКонтакте</string>
+    <string name="skype_description">Skype</string>
+    <string name="gmail_description">GMail</string>
+    <string name="icq_description">ICQ</string>
+    <string name="twitter_description">Twitter</string>
+    <string name="xda_description">XDA форум</string>
+    <string name="gplus_description">Google +</string>
+    <string name="vk_url">http://vk.com/na.marse.klaassno</string>
+    <string name="twitter_url">http://twitter.com/nonamerzzzzzz</string>
+    <string name="icq_url">http://www.icq.com/people/599199517</string>
+    <string name="gmail_url">mailto:nonamerzzzzzz@gmail.com</string>
+    <string name="gplus_url">http://gplus.to/nonamerz</string>
+    <string name="skype_url">skype:nonamerzzzzzz?chat</string>
+    <string name="app_thread_text">"топик приложения"</string>
+    <string name="xda_url">http://forum.xda-developers.com/showthread.php?p=35101328</string>
+    <string name="my_name">Иванов Кирилл (nonamerz)</string>
+    <string name="about_button">О приложении</string>
+    <string name="sensor">Light sensor path</string>
+    <string name="action_Preferences">Preferences</string>    
+    <string name="keyfile">Keyboard light path</string>    
+    <string name="sensorthreshold">Sensor threshold</string>       
+    
+</resources>
